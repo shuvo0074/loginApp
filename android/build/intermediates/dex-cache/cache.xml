@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/356d08915103598e402fc4534475a541276eca39/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="dc6c0959ecc7b21932675183573b2bcecf2687b9">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_916969f232623d25986e76933ce9e3f3c55c1871.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/f9b6b68a6c5eefa866e2ae6af7f711cb2a496d0c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e7a850c25a7efbd533c496ab482c980fdafac58d">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_bbd98e0cca524d54c9be0840f93d6d7cba50bb9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/26c9f5cea4356a51a3890316877b5930502cdae7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_2d69ffb39759326d63701e686084c9957b18631b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/e4cee11ab0df1f8b331c8ed21f15ae8794392c19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_872780871bb640401c81fb087a4e1c5011fffc2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/139ef91f44c924e84b2064bb1281f3f7c41f9e50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="1c9837ec75b2273699379c2ba0ae63d669b4f08c">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_2fd6bda90d40839b275f8aa16d2b2f7beefbcb52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_7628d3aebccf1883fb5302abe85f92855eb2616f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/f9b6b68a6c5eefa866e2ae6af7f711cb2a496d0c/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_3aca1ea81a30c9c8b2998c09a70332cd94a185ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_95c419ff2c38f19c59b8cfe70886b1013d9709e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/691d18cd09c62a82ce7974ab8fcf0219121af963/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f80a752d1333efd4fb9b87da63e73909acb151af">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_51d44feb83dcf9e64c679b136abe3f1ebc2ebc60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/adc40f868555e21487454b19dea6f4e1b5300a2f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_4779ea83150c2614058b51b9047b84e59f64c9ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/9b76dce0311e29e4ab7622434fe0eccc960b5e1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_bb590f288bfa549301ab87f5798254a7c9b00809.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/8c3ce3c1a93b34cfd1b9e10599aa5e2a04ebed31/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_f14138efa7d6cd3169f2bf3dead8ee4a0f3aeaa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e7818cb97d17463b4d2b4b92290d2cc09fbc73a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_02b911e00234e3c7b2c2fcc82aa5d6927fbec877.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_daa04e568487693547c3b9e75957556f6c00bb4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_5e49ef27cf6f69dfaa9be98cb3d6a8f39b9dc44b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/9a26b7c9377a054735dbbacdd248be722655a195/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="87382214d92be4e3c931cb6aa7aa4e827bc179b7">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_9b11c7e92992ab88746da5c715e4c865371887a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/2f890d4e0ecd0bf91e157c7a62a6a5f976049c6e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_dc88d56cc03f1784c28cc0eb99b8a25232fc47dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/9a5349992d84048617adba7dc1f08e76636152b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="ae15c560bc6685007440d8a70686f8348bafd791">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_e577e20f8a1d3b027aa03f8d346ab291f2eb28ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/b4e7f5c0203f89797156598b29d0d38568cf8779/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_eb1e65065388788f4cf0ad07b3ca9457d7303bbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_2c9ef7c824b2b115c4405327c7975cacc1a893f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/a70f9bd54f119c0cea8f82ee8547b6ed379bdbc4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="da59c80e4a1c8df62d2b4188ef3efddab8afa236">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_d6298b3a7ccf5f9087480a09318041a19eff61d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/d41aa677e8cc40dd83ef2db09324f3f77055a2eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="9803a14716e9f462afb5742811f3456c39f3be3a">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_7c3a8456c6a1652fb7185c22770240a3e98e8614.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/0b8701d506a116dd3b15c21072c1014423349ae0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_93219a71291bf80f434dee532ecbd78ab6c98da9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/75840a25f18c7755b46b79cdabf107ba64869833/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_a6f4d921516ba6efe0f10539cde4c195da3ceccf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/18cb2afc1094704fa665d12723c5bf7c4ea22465/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_1294b0cf345a866d9e0f2c784e716ea6a75d2b2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="102d7be47241d781ef95f1581d414b0943053130">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/okio-1.14.0_9136dbfbb0924dab4580c837bbd6a60feec60343.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.10.0/ec614c05825ddd2267677a99f585d3913474b125/okhttp-urlconnection-3.10.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="ec614c05825ddd2267677a99f585d3913474b125">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.10.0_c3af939dc26125a30af1aa11f99f0ad34a518fed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.android/build-cache/b26ced5ecc1743e9a689ffcf9d297af59689cab9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/classes_9068ac2f38925440ce52479bf0c83f6310c31e6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tarmim/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e">
+        <dex dex="/Users/tarmim/RN/loginApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.10.0_42133ba559cef01cf0b67a471b14f430dda10ec0.jar" />
+    </item>
+
+</items>
