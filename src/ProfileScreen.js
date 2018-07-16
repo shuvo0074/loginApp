@@ -8,7 +8,7 @@ import {
   ToastAndroid,
   TouchableOpacity,
 } from 'react-native';
-
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
 export default class ProfileScreen extends Component<{}> {
     static navigationOptions = {
         title: 'Profile',
