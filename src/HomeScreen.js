@@ -16,7 +16,7 @@ export default class HomeScreen extends Component<{}> {
     constructor (props){
       super(props)
       this.state = ({
-        user:'a',
+        user:null,
       })
     }
     componentDidMount(){
@@ -28,7 +28,7 @@ export default class HomeScreen extends Component<{}> {
         console.log('Play services error', err.code, err.message);
       });
       GoogleSignin.configure({
-        scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
+        //scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
         //iosClientId: '<FROM DEVELOPER CONSOLE>', // only for iOS
         webClientId: '973765555551-pupu2jhgduqiqe1ef0rg340s3v0tkqff.apps.googleusercontent.com', // client ID of type WEB for your server (needed to verify user ID and offline access)
         //offlineAccess: true, // if you want to access Google API on behalf of the user FROM YOUR SERVER
@@ -37,22 +37,28 @@ export default class HomeScreen extends Component<{}> {
         //accountName: '', // [Android] specifies an account name on the device that should be used
       }).then(() => {
         // you can now call currentUserAsync()
-      });
+        this.getCurrentUser
+            });
     }
-    signIn = async () => {
-        GoogleSignin.signIn()
-        .then((user)=>{
-          console.log(user)
-          this.setState({ user: 'email' });
-        })
-        
-       .catch ((error)=> {
-        console.log("Wrong signin -------" , error)
-      })
-      .done()
-    }
+    getCurrentUser = async () => {
+      try {
+        const user = await GoogleSignin.currentUserAsync();
+        this.setState({ user });
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    _signIn = async () => {
+      try {
+        const user = await GoogleSignin.signIn();
+        console.log("signin user",user)
+        this.setState({ user });
+      } catch (error) {
+        console.log("inside signin error",error)
+      }
+    };
     render() {
-      console.log(this.state.user)
+      console.log("2--",this.state.user)
     const {navigate}=this.props.navigation
       return (
         <View style={styles.container} >
@@ -68,11 +74,9 @@ export default class HomeScreen extends Component<{}> {
             Home
             </Text>
             </TouchableOpacity>
-            <Text>*** {this.state.user} ***
-            </Text>
             <GoogleSigninButton
             style={{ width: 48, height: 48,margin : 20, }}
-            onPress={this.signIn}/>
+            onPress={this._signIn}/>
         </View>
       );
     }

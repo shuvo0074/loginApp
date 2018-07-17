@@ -1,0 +1,156 @@
+import React, { Component } from 'react';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  ToastAndroid,
+  TouchableOpacity
+} from 'react-native';
+import { GoogleSignin, GoogleSigninButton } from 'react-native-google-signin';
+export default class HomeScreen extends Component<{}> {
+    static navigationOptions = {
+        title: 'Login',
+    }
+    constructor (props){
+      super(props)
+      this.state = ({
+        user: null,
+        error: null, 
+      })
+    }async componentDidMount() {
+      console.log("1--",this.state.error,this.state.user)
+      await this._configureGoogleSignIn();
+      console.log("2--",this.state.error,this.state.user)
+      await this._getCurrentUser();
+      console.log("3--",this.state.error,this.state.user)
+    }
+  
+    async _configureGoogleSignIn() {
+      await GoogleSignin.hasPlayServices({ autoResolve: true });
+      console.log("4--",this.state.error,this.state.user)
+      console.log("5--",this.state.error,this.state.user)
+      await GoogleSignin.configure({
+        webClientId: '973765555551-pupu2jhgduqiqe1ef0rg340s3v0tkqff.apps.googleusercontent.com',
+        offlineAccess: false,
+      });
+      console.log("6--",this.state.error,this.state.user)
+
+    }
+  
+    async _getCurrentUser() {
+      try {
+        console.log("7--",this.state.error,this.state.user)
+        const user = await GoogleSignin.currentUserAsync();
+        console.log("8--",this.state.error,this.state.user)
+        this.setState({ user, error: null });
+      } catch (error) {
+        this.setState({
+          error,
+        });
+        console.log("9--",this.state.error,this.state.user)
+      }
+    }
+  
+    render() {
+      const { user, error } = this.state;
+      console.log("10--",this.state.error,this.state.user)
+      if (!user) {
+        console.log("11--",this.state.error,this.state.user)
+        return (
+          <View style={styles.container}>
+            <GoogleSigninButton
+              style={{ width: 212, height: 48 }}
+              size={GoogleSigninButton.Size.Standard}
+              color={GoogleSigninButton.Color.Auto}
+              onPress={this._signIn}
+            />
+            {error && (
+              <Text>
+                {error.toString()} code: {error.code}
+              </Text>
+            )}
+          </View>
+        );
+      } else {
+        console.log("12--",this.state.error,this.state.user)
+        return (
+          <View style={styles.container}>
+            <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 20 }}>
+              Welcome {user.name}
+            </Text>
+            <Text>Your email is: {user.email}</Text>
+  
+            <TouchableOpacity onPress={this._signOut}>
+              <View style={{ marginTop: 50 }}>
+                <Text>Log out</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+        );
+      }
+    }
+  
+    _signIn = async () => {
+      try {
+        const user = await GoogleSignin.signIn();
+        this.setState({ user, error: null });
+        console.log("13--",this.state.error,this.state.user)
+      } catch (error) {
+        if (error.code === 'CANCELED') {
+          error.message = 'user canceled the login flow';
+        }
+        this.setState({
+          error,
+        });
+        console.log("14--",this.state.error,this.state.user)
+      }
+    };
+  
+    _signOut = async () => {
+      try {
+        console.log("15--",this.state.error,this.state.user)
+        await GoogleSignin.revokeAccess();
+        console.log("16--",this.state.error,this.state.user)
+        await GoogleSignin.signOut();
+        this.setState({ user: null });
+        console.log("17--",this.state.error,this.state.user)
+      } catch (error) {
+        this.setState({
+          error,
+        });
+        console.log("18--",this.state.error,this.state.user)
+      }
+    };
+  }
+  
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#1e3799',
+    },
+    button: {
+        borderRadius: 7,
+        borderWidth:1,
+        borderColor: '#4a69bd',
+        backgroundColor: '#079992'
+    },
+    buttonText: {
+      fontSize: 20,
+      textAlign: 'center',
+      margin: 10,
+    },
+    instructions: {
+      textAlign: 'center',
+      color: '#333333',
+      marginBottom: 5,
+    },
+    navBar: {
+      backgroundColor: 'red',
+      height: 50
+    }
+  });
+ // webClientId: '973765555551-pupu2jhgduqiqe1ef0rg340s3v0tkqff.apps.googleusercontent.com',
